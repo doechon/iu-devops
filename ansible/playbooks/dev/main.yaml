@@ -1,0 +1,7 @@
+- name: Add new role
+  hosts: all
+  become: true
+
+  roles:
+    - web_app
+    - docker
